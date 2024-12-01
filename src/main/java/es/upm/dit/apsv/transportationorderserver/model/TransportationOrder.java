@@ -14,6 +14,8 @@ public class TransportationOrder {
 
     @Id
     private String truck;
+
+    
     private String toid;
     private long originDate;
     private double originLat;
