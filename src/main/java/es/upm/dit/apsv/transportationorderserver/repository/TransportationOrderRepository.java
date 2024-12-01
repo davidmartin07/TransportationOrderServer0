@@ -11,6 +11,9 @@ public interface TransportationOrderRepository extends CrudRepository<Transporta
 TransportationOrder findByTruckAndSt(String truck, int st);
 
 
+
+
+
 }
     
 
