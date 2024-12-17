@@ -52,7 +52,7 @@ jobs:
         push: true
         tags: ghcr.io/davidmartin07/tos:latest
 
-deploy:
+  deploy:
 
     needs: verify-and-package
 
